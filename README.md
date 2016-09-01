@@ -1,1 +1,2 @@
 Provides libraries for interal I20 purposes, it could be used freely by community
+This repository can contain other authors libraries, the license doesn't affect thrid party libs, only those that marked as I20
