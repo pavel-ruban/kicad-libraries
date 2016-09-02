@@ -1,0 +1,32 @@
+EESchema-DOCLIB  Version 2.0  Date: Fri Sep  2 16:36:21 2016
+#
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP +5V
+K POWER, PWR
+$ENDCMP
+$CMP +12V
+K POWER, PWR
+$ENDCMP
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC
+K POWER, PWR
+$ENDCMP
+#
+$CMP VSS
+K POWER, PWR
+$ENDCMP
+#
+$CMP STM32F103C8
+D 32-bit ARM Cortex-M3 Microcontroller, 72MHz, 64KB Flash, 20KB RAM, USB, CAN, LQFP48
+K STM32 ARM Cortex-M3 MCU
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
+$ENDCMP
+#
+#End Library
