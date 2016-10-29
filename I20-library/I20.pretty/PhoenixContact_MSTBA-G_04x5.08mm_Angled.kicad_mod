@@ -42,9 +42,9 @@
   (pad 2 thru_hole oval (at 5.08 0) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 10.16 0) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask))
   (pad 4 thru_hole oval (at 15.24 0) (size 2.1 3.6) (drill 1.4) (layers *.Cu *.Mask))
-  (model Connectors_Phoenix.3dshapes/PhoenixContact_MSTBA-G_04x5.08mm_Angled.wrl
-    (at (xyz 0 0 0))
+  (model ${I20}/shapes3D/Terminals/Terminal-HT5.08-4PL-Angled-Socket.wrl
+    (at (xyz 0 -0.01181102362204724 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 0 0))
   )
 )

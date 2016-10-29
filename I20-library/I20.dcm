@@ -22,6 +22,37 @@ K STM32 ARM Cortex-M3 MCU
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf
 $ENDCMP
 #
+$CMP SW_DIP_1
+D Switch DIP 1
+K Switch
+$ENDCMP
+#
+$CMP SW_DIP_2
+D Switch DIP 2
+K Switch
+$ENDCMP
+#
+$CMP SW_DIP_3
+D Switch DIP 3
+K Switch
+$ENDCMP
+#
+$CMP SW_DIP_4
+D Switch DIP 4
+K Switch
+$ENDCMP
+#
+$CMP SW_DIP_8
+D Switch DIP 8
+K Switch
+$ENDCMP
+#
+$CMP TB6560AHQ
+D Toshiba PWM Chopper driver stepping motor control
+K Motor control
+F http://www.toshiba.com/taec/components2/Datasheet_Sync/382/27885.pdf
+$ENDCMP
+#
 $CMP VCC
 K POWER, PWR
 $ENDCMP
