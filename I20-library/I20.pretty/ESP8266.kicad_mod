@@ -1,4 +1,4 @@
-(module ESP8266_CONN placed (layer F.Cu) (tedit 57C570CA)
+(module ESP8266 placed (layer F.Cu) (tedit 57C570CA)
   (descr "Through hole pin header")
   (tags "pin header")
   (fp_text reference P6 (at -1.28 -8.9) (layer F.SilkS)
@@ -33,6 +33,11 @@
   (pad 8 thru_hole oval (at 1.26 3.82) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (model Pin_Headers.3dshapes/Pin_Header_Straight_2x04.wrl
     (at (xyz -0.0009842519685039372 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
+  (model ${I20}/shapes3D/Devices/Esp2866_2x04.wrl
+    (at (xyz -0.3543307086614174 0 0.2362204724409449))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
