@@ -16,6 +16,15 @@ $CMP GND
 K POWER, PWR
 $ENDCMP
 #
+$CMP N_MOSFET
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP SN74LVC2G14
+D Double Inverter
+K HCTMOS not inv
+$ENDCMP
+#
 $CMP STM32F103C8
 D 32-bit ARM Cortex-M3 Microcontroller, 72MHz, 64KB Flash, 20KB RAM, USB, CAN, LQFP48
 K STM32 ARM Cortex-M3 MCU
