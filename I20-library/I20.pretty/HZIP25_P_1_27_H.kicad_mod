@@ -1,5 +1,5 @@
-(module HZIP25_P_1_27_H (layer F.Cu) (tedit 580F0794)
-  (fp_text reference U* (at 0 -14.732) (layer F.SilkS)
+(module HZIP25_P_1_27_H locked (layer F.Cu) (tedit 580F0794)
+  (fp_text reference U5 (at 0 -14.732) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
   )
   (fp_text value TB6560AHQ (at 0 13.716) (layer F.SilkS)
@@ -77,5 +77,10 @@
     (at (xyz 0 0.4153543307086615 -0.171259842519685))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model ${I20}/shapes3D/Radiators/radiator.wrl
+    (at (xyz -0.8267716535433072 0.4527559055118111 0.1181102362204725))
+    (scale (xyz 0.6 0.4 0.7))
+    (rotate (xyz -90 0 -90))
   )
 )
